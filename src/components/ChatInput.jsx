@@ -40,7 +40,7 @@ export function ChatInput({chatMessages,setChatMessages}){
         <button
             onClick={sendMessages}
             //className="send-Button"
-            className="bg-red-500"
+            className="bg-[rgb(25,135,84)] py-[10px] px-[20px] rounded-lg text-white"
         >
             Send
         </button>
