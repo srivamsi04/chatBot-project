@@ -2,7 +2,7 @@
   "name": "chatbot-project",
   "private": true,
   "version": "0.0.0",
-   "homepage": "https://srivamsi04.github.io/chatBot-project",
+  "homepage": "https://srivamsi04.github.io/chatBot-project",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,10 +12,12 @@
     "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
     "dayjs": "^1.11.13",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "supersimpledev": "^8.6.4"
+    "supersimpledev": "^8.6.4",
+    "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
