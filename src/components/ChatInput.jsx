@@ -39,7 +39,8 @@ export function ChatInput({chatMessages,setChatMessages}){
         />
         <button
             onClick={sendMessages}
-            className="send-Button"
+            //className="send-Button"
+            className="bg-red-500"
         >
             Send
         </button>
