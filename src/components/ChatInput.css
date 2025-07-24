@@ -1,3 +1,4 @@
+@import "tailwindcss";
 .send-Button{
     background-color: rgb(25, 135, 84);
     color: white;
